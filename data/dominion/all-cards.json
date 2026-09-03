@@ -25,7 +25,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "abundance",
@@ -50,7 +52,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "acolyte",
@@ -75,7 +79,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "acting-troupe",
@@ -99,7 +105,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 4
     },
     {
       "id": "adventurer",
@@ -123,7 +131,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "advisor",
@@ -148,7 +158,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "alchemist",
@@ -172,7 +184,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "alley",
@@ -197,7 +211,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "altar",
@@ -221,7 +237,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ambassador",
@@ -246,7 +264,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "amphora",
@@ -272,7 +292,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "amulet",
@@ -297,7 +319,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "animal-fair",
@@ -321,7 +345,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "anvil",
@@ -345,7 +371,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "apothecary",
@@ -369,7 +397,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "apprentice",
@@ -393,7 +423,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "archer",
@@ -419,7 +451,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "archive",
@@ -444,7 +478,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "aristocrat",
@@ -468,7 +504,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "armory",
@@ -492,7 +530,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "artificer",
@@ -516,7 +556,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "artisan",
@@ -540,7 +582,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "artist",
@@ -564,7 +608,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "astrolabe",
@@ -589,7 +635,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "augurs",
@@ -614,7 +662,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "avanto",
@@ -638,7 +688,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bad-omens",
@@ -662,7 +714,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bag-of-gold",
@@ -687,7 +741,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "baker",
@@ -712,7 +768,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 0
     },
     {
       "id": "band-of-misfits",
@@ -737,7 +795,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bandit",
@@ -762,7 +822,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bandit-camp",
@@ -786,7 +848,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bank",
@@ -811,7 +875,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "barbarian",
@@ -836,7 +902,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bard",
@@ -861,7 +929,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "barge",
@@ -886,7 +956,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "baron",
@@ -911,7 +983,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bat",
@@ -935,7 +1009,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "battle-plan",
@@ -960,7 +1036,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bauble",
@@ -985,7 +1063,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bazaar",
@@ -1010,7 +1090,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "beggar",
@@ -1035,7 +1117,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "berserker",
@@ -1060,7 +1144,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bishop",
@@ -1085,7 +1171,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "black-cat",
@@ -1111,7 +1199,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "black-market",
@@ -1135,7 +1225,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "blacksmith",
@@ -1160,7 +1252,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "blessed-village",
@@ -1185,7 +1279,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "blockade",
@@ -1211,7 +1307,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "border-guard",
@@ -1235,7 +1333,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "border-village",
@@ -1260,7 +1360,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bounty-hunter",
@@ -1284,7 +1386,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bridge",
@@ -1309,7 +1413,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bridge-troll",
@@ -1335,7 +1441,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "broker",
@@ -1360,7 +1468,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bureaucrat",
@@ -1386,7 +1496,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "buried-treasure",
@@ -1411,7 +1523,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "bustling-village",
@@ -1435,7 +1549,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "butcher",
@@ -1460,7 +1576,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 2,
+      "plusVillagers": 0
     },
     {
       "id": "cabin-boy",
@@ -1485,7 +1603,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cache",
@@ -1509,7 +1629,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cage",
@@ -1534,7 +1656,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "camel-train",
@@ -1558,7 +1682,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "candlestick-maker",
@@ -1583,7 +1709,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 0
     },
     {
       "id": "capital",
@@ -1607,7 +1735,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "capital-city",
@@ -1631,7 +1761,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "captain",
@@ -1657,7 +1789,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "caravan",
@@ -1683,7 +1817,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "caravan-guard",
@@ -1709,7 +1845,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cardinal",
@@ -1734,7 +1872,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cargo-ship",
@@ -1759,7 +1899,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "carnival",
@@ -1783,7 +1925,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "carpenter",
@@ -1807,7 +1951,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cartographer",
@@ -1832,7 +1978,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "castles",
@@ -1857,7 +2005,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "catacombs",
@@ -1881,7 +2031,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "catapult",
@@ -1906,7 +2058,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "catapult-rocks",
@@ -1931,7 +2085,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cauldron",
@@ -1956,7 +2112,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cavalry",
@@ -1980,7 +2138,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cellar",
@@ -2005,7 +2165,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cemetery",
@@ -2029,7 +2191,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "champion",
@@ -2054,7 +2218,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "chancellor",
@@ -2078,7 +2244,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "change",
@@ -2102,7 +2270,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "changeling",
@@ -2126,7 +2296,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "chapel",
@@ -2151,7 +2323,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "chariot-race",
@@ -2175,7 +2349,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "charlatan",
@@ -2200,7 +2376,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "charm",
@@ -2224,7 +2402,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "church",
@@ -2249,7 +2429,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "city",
@@ -2274,7 +2456,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "city-quarter",
@@ -2298,7 +2482,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "clashes",
@@ -2323,7 +2509,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "clerk",
@@ -2349,7 +2537,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cobbler",
@@ -2374,7 +2564,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "coin-of-the-realm",
@@ -2399,7 +2591,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "collection",
@@ -2423,7 +2617,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "colony",
@@ -2448,7 +2644,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "conclave",
@@ -2472,7 +2670,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "conjurer",
@@ -2498,7 +2698,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "conspirator",
@@ -2523,7 +2725,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "contraband",
@@ -2547,7 +2751,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "contract",
@@ -2573,7 +2779,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "copper",
@@ -2598,7 +2806,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "coppersmith",
@@ -2622,7 +2832,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "coronet",
@@ -2648,7 +2860,9 @@
       "purpose": "Non-Supply",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "corsair",
@@ -2674,7 +2888,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "council-room",
@@ -2699,7 +2915,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "count",
@@ -2723,7 +2941,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "counterfeit",
@@ -2747,7 +2967,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "counting-house",
@@ -2771,7 +2993,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "courier",
@@ -2795,7 +3019,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "courser",
@@ -2820,7 +3046,9 @@
       "purpose": "Non-Supply",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "courtier",
@@ -2844,7 +3072,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "courtyard",
@@ -2869,7 +3099,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "coven",
@@ -2894,7 +3126,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "craftsman",
@@ -2918,7 +3152,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "crew",
@@ -2943,7 +3179,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "crossroads",
@@ -2968,7 +3206,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "crown",
@@ -2993,7 +3233,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "crucible",
@@ -3017,7 +3259,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "crumbling-castle",
@@ -3042,7 +3286,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "crypt",
@@ -3067,7 +3313,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "crystal-ball",
@@ -3091,7 +3339,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cultist",
@@ -3117,7 +3367,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "curse",
@@ -3142,7 +3394,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cursed-gold",
@@ -3167,7 +3421,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cursed-village",
@@ -3192,7 +3448,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cutpurse",
@@ -3218,7 +3476,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "cutthroat",
@@ -3244,7 +3504,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "daimyo",
@@ -3269,7 +3531,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "dame-anna",
@@ -3295,7 +3559,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "dame-josephine",
@@ -3322,7 +3588,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "dame-molly",
@@ -3348,7 +3616,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "dame-natalie",
@@ -3374,7 +3644,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "dame-sylvia",
@@ -3400,7 +3672,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "death-cart",
@@ -3425,7 +3699,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "delusion",
@@ -3449,7 +3725,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "demesne",
@@ -3475,7 +3753,9 @@
       "purpose": "Non-Supply",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "den-of-sin",
@@ -3500,7 +3780,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "destrier",
@@ -3524,7 +3806,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "develop",
@@ -3549,7 +3833,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "devils-workshop",
@@ -3573,7 +3859,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "diadem",
@@ -3598,7 +3886,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "diplomat",
@@ -3623,7 +3913,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "disciple",
@@ -3648,7 +3940,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "dismantle",
@@ -3672,7 +3966,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "displace",
@@ -3696,7 +3992,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "distant-lands",
@@ -3722,7 +4020,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "distant-shore",
@@ -3748,7 +4048,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "doctor",
@@ -3772,7 +4074,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "doubloons",
@@ -3797,7 +4101,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "druid",
@@ -3822,7 +4128,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ducat",
@@ -3846,7 +4154,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 0
     },
     {
       "id": "duchess",
@@ -3870,7 +4180,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "duchy",
@@ -3895,7 +4207,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "duke",
@@ -3920,7 +4234,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "dungeon",
@@ -3945,7 +4261,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "duplicate",
@@ -3970,7 +4288,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "elder",
@@ -3995,7 +4315,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "embargo",
@@ -4019,7 +4341,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "embassy",
@@ -4043,7 +4367,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "emissary",
@@ -4068,7 +4394,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "emporium",
@@ -4092,7 +4420,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "encampment",
@@ -4116,7 +4446,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "encampment-plunder",
@@ -4140,7 +4472,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "enchantress",
@@ -4166,7 +4500,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "endless-chalice",
@@ -4192,7 +4528,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "engineer",
@@ -4216,7 +4554,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "enlarge",
@@ -4241,7 +4581,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "envoy",
@@ -4265,7 +4607,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "envy",
@@ -4289,7 +4633,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "estate",
@@ -4314,7 +4660,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "exorcist",
@@ -4338,7 +4686,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "expand",
@@ -4363,7 +4713,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "experiment",
@@ -4387,7 +4739,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "explorer",
@@ -4411,7 +4765,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fairgrounds",
@@ -4436,7 +4792,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "faithful-hound",
@@ -4461,7 +4819,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "falconer",
@@ -4486,7 +4846,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "familiar",
@@ -4511,7 +4873,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "famine",
@@ -4535,7 +4899,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "farmers-market",
@@ -4560,7 +4926,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "farmhands",
@@ -4584,7 +4952,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "farming-village",
@@ -4608,7 +4978,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "farmland",
@@ -4633,7 +5005,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "farrier",
@@ -4657,7 +5031,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fear",
@@ -4681,7 +5057,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "feast",
@@ -4705,7 +5083,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "feodum",
@@ -4729,7 +5109,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ferryman",
@@ -4753,7 +5135,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "festival",
@@ -4778,7 +5162,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "figurehead",
@@ -4804,7 +5190,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "figurine",
@@ -4828,7 +5216,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "first-mate",
@@ -4852,7 +5242,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fisherman",
@@ -4876,7 +5268,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fishing-village",
@@ -4902,7 +5296,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fishmonger",
@@ -4927,7 +5323,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "flag-bearer",
@@ -4951,7 +5349,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "flagship",
@@ -4977,7 +5377,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "followers",
@@ -5003,7 +5405,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fool",
@@ -5028,7 +5432,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fools-gold",
@@ -5054,7 +5460,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "footpad",
@@ -5079,7 +5487,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 2,
+      "plusVillagers": 0
     },
     {
       "id": "forager",
@@ -5103,7 +5513,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "forge",
@@ -5128,7 +5540,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fortress",
@@ -5152,7 +5566,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "forts",
@@ -5177,7 +5593,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fortune",
@@ -5201,7 +5619,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fortune-hunter",
@@ -5225,7 +5645,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fortune-teller",
@@ -5250,7 +5672,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "forum",
@@ -5274,7 +5698,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "frigate",
@@ -5300,7 +5726,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "fugitive",
@@ -5325,7 +5753,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "galleria",
@@ -5349,7 +5779,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gardens",
@@ -5374,7 +5806,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "garrison",
@@ -5400,7 +5834,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gatekeeper",
@@ -5426,7 +5862,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gear",
@@ -5451,7 +5889,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ghost",
@@ -5477,7 +5917,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ghost-ship",
@@ -5502,7 +5944,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ghost-town",
@@ -5527,7 +5971,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "giant",
@@ -5552,7 +5998,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gladiator",
@@ -5576,7 +6024,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gladiator-fortune",
@@ -5600,7 +6050,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "goat",
@@ -5625,7 +6077,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "goatherd",
@@ -5649,7 +6103,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gold",
@@ -5674,7 +6130,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gold-mine",
@@ -5698,7 +6156,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "golem",
@@ -5722,7 +6182,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "gondola",
@@ -5747,7 +6209,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "goons",
@@ -5772,7 +6236,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "governor",
@@ -5796,7 +6262,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "grand-castle",
@@ -5821,7 +6289,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "grand-market",
@@ -5846,7 +6316,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "graverobber",
@@ -5870,7 +6342,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "great-hall",
@@ -5895,7 +6369,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "greed",
@@ -5919,7 +6395,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "groom",
@@ -5943,7 +6421,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "grotto",
@@ -5968,7 +6448,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "groundskeeper",
@@ -5992,7 +6474,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "guard-dog",
@@ -6017,7 +6501,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "guardian",
@@ -6042,7 +6528,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "guide",
@@ -6067,7 +6555,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "guildmaster",
@@ -6092,7 +6582,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "haggler",
@@ -6117,7 +6609,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hamlet",
@@ -6142,7 +6636,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hammer",
@@ -6167,7 +6663,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "harbinger",
@@ -6191,7 +6689,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "harbor-village",
@@ -6215,7 +6715,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "harem",
@@ -6241,7 +6743,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "harvest",
@@ -6265,7 +6769,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "haunted-castle",
@@ -6290,7 +6796,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "haunted-mirror",
@@ -6315,7 +6823,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "haunted-woods",
@@ -6341,7 +6851,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "haunting",
@@ -6365,7 +6877,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "haven",
@@ -6391,7 +6905,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "herald",
@@ -6416,7 +6932,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "herb-gatherer",
@@ -6441,7 +6959,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "herbalist",
@@ -6465,7 +6985,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hermit",
@@ -6489,7 +7011,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hero",
@@ -6514,7 +7038,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hideout",
@@ -6538,7 +7064,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "highway",
@@ -6563,7 +7091,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "highwayman",
@@ -6589,7 +7119,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hill-fort",
@@ -6614,7 +7146,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hireling",
@@ -6639,7 +7173,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hoard",
@@ -6664,7 +7200,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "horn-of-plenty",
@@ -6689,7 +7227,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "horse",
@@ -6713,7 +7253,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "horse-traders",
@@ -6738,7 +7280,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hostelry",
@@ -6762,7 +7306,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "housecarl",
@@ -6787,7 +7333,9 @@
       "purpose": "Non-Supply",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hovel",
@@ -6812,7 +7360,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "huge-turnip",
@@ -6837,7 +7387,9 @@
       "purpose": "Non-Supply",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 2,
+      "plusVillagers": 0
     },
     {
       "id": "humble-castle",
@@ -6863,7 +7415,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hunter",
@@ -6887,7 +7441,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hunting-grounds",
@@ -6911,7 +7467,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hunting-lodge",
@@ -6935,7 +7493,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "hunting-party",
@@ -6960,7 +7520,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "idol",
@@ -6986,7 +7548,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ill-gotten-gains",
@@ -7010,7 +7574,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "imp",
@@ -7035,7 +7601,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "imperial-envoy",
@@ -7059,7 +7627,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "importer",
@@ -7085,7 +7655,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "improve",
@@ -7109,7 +7681,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "infirmary",
@@ -7133,7 +7707,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "inn",
@@ -7158,7 +7734,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "innkeeper",
@@ -7182,7 +7760,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "insignia",
@@ -7207,7 +7787,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "inventor",
@@ -7231,7 +7813,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "investment",
@@ -7255,7 +7839,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ironmonger",
@@ -7279,7 +7865,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ironworks",
@@ -7304,7 +7892,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "island",
@@ -7330,7 +7920,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "jack-of-all-trades",
@@ -7355,7 +7947,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "jester",
@@ -7381,7 +7975,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "jewelled-egg",
@@ -7405,7 +8001,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "jewels",
@@ -7431,7 +8029,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "journeyman",
@@ -7456,7 +8056,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "joust",
@@ -7480,7 +8082,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "junk-dealer",
@@ -7504,7 +8108,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "kiln",
@@ -7528,7 +8134,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "kings-cache",
@@ -7552,7 +8160,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "kings-castle",
@@ -7577,7 +8187,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "kings-court",
@@ -7602,7 +8214,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "kitsune",
@@ -7628,7 +8242,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "knights",
@@ -7654,7 +8270,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "laboratory",
@@ -7679,7 +8297,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "lackeys",
@@ -7703,7 +8323,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 2
     },
     {
       "id": "landing-party",
@@ -7728,7 +8350,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "legionary",
@@ -7753,7 +8377,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "leprechaun",
@@ -7778,7 +8404,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "library",
@@ -7803,7 +8431,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "lich",
@@ -7828,7 +8458,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "lighthouse",
@@ -7854,7 +8486,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "litter",
@@ -7878,7 +8512,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "livery",
@@ -7902,7 +8538,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "loan",
@@ -7926,7 +8564,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "locusts",
@@ -7950,7 +8590,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "longship",
@@ -7975,7 +8617,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "lookout",
@@ -8000,7 +8644,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "loot",
@@ -8025,7 +8671,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "lost-city",
@@ -8049,7 +8697,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "lucky-coin",
@@ -8074,7 +8724,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "lurker",
@@ -8098,7 +8750,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "madman",
@@ -8122,7 +8776,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "magic-lamp",
@@ -8147,7 +8803,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "magnate",
@@ -8171,7 +8829,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "magpie",
@@ -8195,7 +8855,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mandarin",
@@ -8219,7 +8881,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mapmaker",
@@ -8244,7 +8908,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "marauder",
@@ -8270,7 +8936,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "marchland",
@@ -8294,7 +8962,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "margrave",
@@ -8320,7 +8990,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "market",
@@ -8345,7 +9017,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "market-square",
@@ -8370,7 +9044,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "maroon",
@@ -8394,7 +9070,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "marquis",
@@ -8418,7 +9096,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "masquerade",
@@ -8443,7 +9123,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mastermind",
@@ -8468,7 +9150,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "masterpiece",
@@ -8492,7 +9176,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "menagerie",
@@ -8517,7 +9203,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mercenary",
@@ -8542,7 +9230,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "merchant",
@@ -8566,7 +9256,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "merchant-camp",
@@ -8590,7 +9282,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "merchant-guild",
@@ -8615,7 +9309,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 0
     },
     {
       "id": "merchant-ship",
@@ -8641,7 +9337,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "messenger",
@@ -8665,7 +9363,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "militia",
@@ -8691,7 +9391,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mill",
@@ -8716,7 +9418,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "miller",
@@ -8741,7 +9445,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mine",
@@ -8766,7 +9472,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mining-road",
@@ -8790,7 +9498,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mining-village",
@@ -8815,7 +9525,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "minion",
@@ -8841,7 +9553,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mint",
@@ -8866,7 +9580,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "miser",
@@ -8890,7 +9606,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "misery",
@@ -8914,7 +9632,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "moat",
@@ -8940,7 +9660,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "modify",
@@ -8964,7 +9686,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "monastery",
@@ -8988,7 +9712,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "moneylender",
@@ -9013,7 +9739,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "monkey",
@@ -9038,7 +9766,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "monument",
@@ -9063,7 +9793,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mountain-shrine",
@@ -9088,7 +9820,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mountain-village",
@@ -9112,7 +9846,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mountebank",
@@ -9137,7 +9873,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "mystic",
@@ -9161,7 +9899,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "native-village",
@@ -9186,7 +9926,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "navigator",
@@ -9210,7 +9952,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "necromancer",
@@ -9234,7 +9978,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "necropolis",
@@ -9259,7 +10005,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "night-watchman",
@@ -9283,7 +10031,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ninja",
@@ -9309,7 +10059,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "noble-brigand",
@@ -9334,7 +10086,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "nobles",
@@ -9360,7 +10114,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "nomad-camp",
@@ -9384,7 +10140,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "nomads",
@@ -9408,7 +10166,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "oasis",
@@ -9433,7 +10193,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "odysseys",
@@ -9458,7 +10220,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "old-map",
@@ -9483,7 +10247,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "old-witch",
@@ -9508,7 +10274,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "opulent-castle",
@@ -9534,7 +10302,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "oracle",
@@ -9559,7 +10329,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "orb",
@@ -9584,7 +10356,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "outpost",
@@ -9610,7 +10384,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "overgrown-estate",
@@ -9635,7 +10411,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "overlord",
@@ -9660,7 +10438,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "paddock",
@@ -9684,7 +10464,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "page",
@@ -9709,7 +10491,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pasture",
@@ -9735,7 +10519,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "patrician",
@@ -9759,7 +10545,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "patrician-emporium",
@@ -9783,7 +10571,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "patrol",
@@ -9807,7 +10597,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "patron",
@@ -9832,7 +10624,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 1
     },
     {
       "id": "pawn",
@@ -9857,7 +10651,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pearl-diver",
@@ -9881,7 +10677,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "peasant",
@@ -9906,7 +10704,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "peddler",
@@ -9931,7 +10731,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pendant",
@@ -9955,7 +10757,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "philosophers-stone",
@@ -9979,7 +10783,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pickaxe",
@@ -10003,7 +10809,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pilgrim",
@@ -10027,7 +10835,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pillage",
@@ -10052,7 +10862,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pirate",
@@ -10078,7 +10890,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pirate-ship",
@@ -10103,7 +10917,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pixie",
@@ -10128,7 +10944,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "plague",
@@ -10152,7 +10970,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "platinum",
@@ -10177,7 +10997,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "plaza",
@@ -10202,7 +11024,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 0
     },
     {
       "id": "plunder",
@@ -10226,7 +11050,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "poacher",
@@ -10250,7 +11076,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "poet",
@@ -10275,7 +11103,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pooka",
@@ -10299,7 +11129,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "poor-house",
@@ -10323,7 +11155,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "port",
@@ -10347,7 +11181,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "possession",
@@ -10371,7 +11207,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "potion",
@@ -10395,7 +11233,9 @@
       "purpose": "Basic",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "pouch",
@@ -10420,7 +11260,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "poverty",
@@ -10444,7 +11286,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "priest",
@@ -10468,7 +11312,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "prince",
@@ -10494,7 +11340,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "princess",
@@ -10519,7 +11367,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "prize-goat",
@@ -10544,7 +11394,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "procession",
@@ -10568,7 +11420,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "province",
@@ -10593,7 +11447,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "puzzle-box",
@@ -10618,7 +11474,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "quarry",
@@ -10643,7 +11501,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "quartermaster",
@@ -10668,7 +11528,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rabble",
@@ -10694,7 +11556,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "raider",
@@ -10720,7 +11584,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ranger",
@@ -10744,7 +11610,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ratcatcher",
@@ -10769,7 +11637,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rats",
@@ -10793,7 +11663,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "raze",
@@ -10817,7 +11689,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rebuild",
@@ -10841,7 +11715,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "recruiter",
@@ -10865,7 +11741,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 1
     },
     {
       "id": "relic",
@@ -10890,7 +11768,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "remake",
@@ -10915,7 +11795,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "remodel",
@@ -10940,7 +11822,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "renown",
@@ -10965,7 +11849,9 @@
       "purpose": "Non-Supply",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "replace",
@@ -10990,7 +11876,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "research",
@@ -11015,7 +11903,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rice",
@@ -11039,7 +11929,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rice-broker",
@@ -11063,7 +11955,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "river-shrine",
@@ -11088,7 +11982,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "riverboat",
@@ -11113,7 +12009,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rocks",
@@ -11137,7 +12035,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rogue",
@@ -11162,7 +12062,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ronin",
@@ -11187,7 +12089,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "root-cellar",
@@ -11211,7 +12115,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rope",
@@ -11236,7 +12142,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "royal-blacksmith",
@@ -11260,7 +12168,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "royal-carriage",
@@ -11285,7 +12195,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "royal-galley",
@@ -11310,7 +12222,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "royal-seal",
@@ -11334,7 +12248,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ruined-library",
@@ -11359,7 +12275,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ruined-market",
@@ -11384,7 +12302,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ruined-village",
@@ -11409,7 +12329,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "ruins",
@@ -11434,7 +12356,9 @@
       "purpose": "Basic",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "rustic-village",
@@ -11459,7 +12383,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "saboteur",
@@ -11484,7 +12410,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sack-of-loot",
@@ -11508,7 +12436,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sacred-grove",
@@ -11533,7 +12463,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sacrifice",
@@ -11557,7 +12489,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sage",
@@ -11581,7 +12515,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sailor",
@@ -11606,7 +12542,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "salvager",
@@ -11631,7 +12569,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "samurai",
@@ -11657,7 +12597,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sanctuary",
@@ -11681,7 +12623,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sauna",
@@ -11705,7 +12649,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sauna-avanto",
@@ -11729,7 +12675,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "scavenger",
@@ -11753,7 +12701,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "scepter",
@@ -11778,7 +12728,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "scheme",
@@ -11803,7 +12755,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "scholar",
@@ -11827,7 +12781,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "scout",
@@ -11851,7 +12807,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "scrap",
@@ -11875,7 +12833,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "scrying-pool",
@@ -11900,7 +12860,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sculptor",
@@ -11924,7 +12886,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 1
     },
     {
       "id": "sea-chart",
@@ -11948,7 +12912,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sea-hag",
@@ -11973,7 +12939,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sea-witch",
@@ -11999,7 +12967,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "search",
@@ -12024,7 +12994,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "secluded-shrine",
@@ -12049,7 +13021,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "secret-cave",
@@ -12074,7 +13048,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "secret-chamber",
@@ -12099,7 +13075,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "secret-passage",
@@ -12123,7 +13101,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "seer",
@@ -12147,7 +13127,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sentinel",
@@ -12171,7 +13153,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sentry",
@@ -12195,7 +13179,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "settlers",
@@ -12219,7 +13205,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "settlers-bustling-village",
@@ -12243,7 +13231,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sextant",
@@ -12268,7 +13258,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "shaman",
@@ -12292,7 +13284,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "shanty-town",
@@ -12317,7 +13311,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sheepdog",
@@ -12342,7 +13338,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "shelters",
@@ -12366,7 +13364,9 @@
       "purpose": "Basic",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "shepherd",
@@ -12390,7 +13390,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "shield",
@@ -12416,7 +13418,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "shop",
@@ -12440,7 +13444,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sibyl",
@@ -12465,7 +13471,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "silk-merchant",
@@ -12489,7 +13497,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 1
     },
     {
       "id": "silk-road",
@@ -12513,7 +13523,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "silver",
@@ -12538,7 +13550,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "silver-mine",
@@ -12562,7 +13576,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sir-bailey",
@@ -12588,7 +13604,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sir-destry",
@@ -12614,7 +13632,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sir-martin",
@@ -12640,7 +13660,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sir-michael",
@@ -12666,7 +13688,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sir-vander",
@@ -12692,7 +13716,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "siren",
@@ -12718,7 +13744,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "skirmisher",
@@ -12743,7 +13771,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "skulk",
@@ -12769,7 +13799,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sleigh",
@@ -12794,7 +13826,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "small-castle",
@@ -12820,7 +13854,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "smithy",
@@ -12845,7 +13881,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "smugglers",
@@ -12870,7 +13908,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "snake-witch",
@@ -12895,7 +13935,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "snowy-village",
@@ -12919,7 +13961,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "soldier",
@@ -12945,7 +13989,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "soothsayer",
@@ -12971,7 +14017,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sorcerer",
@@ -12997,7 +14045,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sorceress",
@@ -13023,7 +14073,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "souk",
@@ -13047,7 +14099,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "specialist",
@@ -13071,7 +14125,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "spell-scroll",
@@ -13097,7 +14153,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "spice-merchant",
@@ -13122,7 +14180,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "spices",
@@ -13146,7 +14206,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 2,
+      "plusVillagers": 0
     },
     {
       "id": "spoils",
@@ -13170,7 +14232,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sprawling-castle",
@@ -13195,7 +14259,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "spy",
@@ -13220,7 +14286,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "squire",
@@ -13244,7 +14312,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "stables",
@@ -13269,7 +14339,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "staff",
@@ -13294,7 +14366,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "stash",
@@ -13318,7 +14392,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "steward",
@@ -13343,7 +14419,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "stockpile",
@@ -13367,7 +14445,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "stonemason",
@@ -13392,7 +14472,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "storeroom",
@@ -13416,7 +14498,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "storyteller",
@@ -13440,7 +14524,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "stowaway",
@@ -13466,7 +14552,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "stronghold",
@@ -13493,7 +14581,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "student",
@@ -13519,7 +14609,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sunken-treasure",
@@ -13544,7 +14636,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "supplies",
@@ -13568,7 +14662,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "survivors",
@@ -13593,7 +14689,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "swamp-hag",
@@ -13619,7 +14717,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "swamp-shacks",
@@ -13643,7 +14743,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "swap",
@@ -13667,7 +14769,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "swashbuckler",
@@ -13691,7 +14795,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 1,
+      "plusVillagers": 0
     },
     {
       "id": "swindler",
@@ -13717,7 +14823,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sword",
@@ -13743,7 +14851,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "sycophant",
@@ -13768,7 +14878,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tactician",
@@ -13794,7 +14906,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "talisman",
@@ -13818,7 +14932,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tanuki",
@@ -13843,7 +14959,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "taskmaster",
@@ -13868,7 +14986,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "taxman",
@@ -13893,7 +15013,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tea-house",
@@ -13918,7 +15040,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "teacher",
@@ -13943,7 +15067,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "temple",
@@ -13968,7 +15094,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tent",
@@ -13993,7 +15121,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "territory",
@@ -14018,7 +15148,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-earths-gift",
@@ -14042,7 +15174,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-fields-gift",
@@ -14066,7 +15200,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-flames-gift",
@@ -14090,7 +15226,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-forests-gift",
@@ -14114,7 +15252,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-moons-gift",
@@ -14138,7 +15278,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-mountains-gift",
@@ -14162,7 +15304,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-rivers-gift",
@@ -14186,7 +15330,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-seas-gift",
@@ -14210,7 +15356,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-skys-gift",
@@ -14234,7 +15382,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-suns-gift",
@@ -14258,7 +15408,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-swamps-gift",
@@ -14282,7 +15434,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "the-winds-gift",
@@ -14306,7 +15460,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "thief",
@@ -14331,7 +15487,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "throne-room",
@@ -14356,7 +15514,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tiara",
@@ -14380,7 +15540,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tide-pools",
@@ -14405,7 +15567,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tools",
@@ -14429,7 +15593,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tormentor",
@@ -14455,7 +15621,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "torturer",
@@ -14481,7 +15649,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tournament",
@@ -14505,7 +15675,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "town",
@@ -14529,7 +15701,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "town-crier",
@@ -14554,7 +15728,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "townsfolk",
@@ -14579,7 +15755,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tracker",
@@ -14604,7 +15782,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "trade-route",
@@ -14628,7 +15808,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "trader",
@@ -14654,7 +15836,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "trading-post",
@@ -14679,7 +15863,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tragic-hero",
@@ -14703,7 +15889,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "trail",
@@ -14728,7 +15916,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "transmogrify",
@@ -14753,7 +15943,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "transmute",
@@ -14777,7 +15969,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "treasure-hunter",
@@ -14802,7 +15996,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "treasure-map",
@@ -14827,7 +16023,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "treasure-trove",
@@ -14851,7 +16049,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "treasurer",
@@ -14875,7 +16075,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "treasury",
@@ -14900,7 +16102,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tribute",
@@ -14924,7 +16128,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "trickster",
@@ -14949,7 +16155,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "trusty-steed",
@@ -14974,7 +16182,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "tunnel",
@@ -15000,7 +16210,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "underling",
@@ -15025,7 +16237,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "university",
@@ -15049,7 +16263,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "upgrade",
@@ -15074,7 +16290,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "urchin",
@@ -15099,7 +16317,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "vagrant",
@@ -15123,7 +16343,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "vampire",
@@ -15149,7 +16371,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "vassal",
@@ -15173,7 +16397,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "vault",
@@ -15198,7 +16424,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "venture",
@@ -15222,7 +16450,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "villa",
@@ -15246,7 +16476,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "village",
@@ -15271,7 +16503,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "village-green",
@@ -15297,7 +16531,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "villain",
@@ -15322,7 +16558,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 2,
+      "plusVillagers": 0
     },
     {
       "id": "vineyard",
@@ -15346,7 +16584,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "voyage",
@@ -15372,7 +16612,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "walled-village",
@@ -15396,7 +16638,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wandering-minstrel",
@@ -15420,7 +16664,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "war",
@@ -15444,7 +16690,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "war-chest",
@@ -15468,7 +16716,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "warehouse",
@@ -15493,7 +16743,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "warlord",
@@ -15520,7 +16772,9 @@
       "purpose": "Mixed Pile Card",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "warrior",
@@ -15546,7 +16800,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "watchtower",
@@ -15572,7 +16828,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wayfarer",
@@ -15596,7 +16854,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wealthy-village",
@@ -15620,7 +16880,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "weaver",
@@ -15645,7 +16907,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "werewolf",
@@ -15672,7 +16936,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wharf",
@@ -15698,7 +16964,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wheelwright",
@@ -15722,7 +16990,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wild-hunt",
@@ -15747,7 +17017,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "will-o-wisp",
@@ -15772,7 +17044,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wine-merchant",
@@ -15797,7 +17071,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wish",
@@ -15821,7 +17097,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wishing-well",
@@ -15846,7 +17124,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "witch",
@@ -15872,7 +17152,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "witchs-hut",
@@ -15897,7 +17179,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "wizards",
@@ -15923,7 +17207,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "woodcutter",
@@ -15947,7 +17233,9 @@
       "purpose": "Kingdom Pile",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "workers-village",
@@ -15972,7 +17260,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "workshop",
@@ -15997,7 +17287,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "young-witch",
@@ -16023,7 +17315,9 @@
       "editions": [
         1,
         2
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "zombie-apprentice",
@@ -16048,7 +17342,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "zombie-mason",
@@ -16073,7 +17369,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     },
     {
       "id": "zombie-spy",
@@ -16098,7 +17396,9 @@
       "purpose": "Non-Supply",
       "editions": [
         1
-      ]
+      ],
+      "plusCoffers": 0,
+      "plusVillagers": 0
     }
   ]
 }

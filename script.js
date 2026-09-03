@@ -22,6 +22,8 @@ const elements = {
   plusBuysClue: document.getElementById('plus-buys-clue'),
   plusActionsClue: document.getElementById('plus-actions-clue'),
   plusVpClue: document.getElementById('plus-vp-clue'),
+  plusCoffersClue: document.getElementById('plus-coffers-clue'),
+  plusVillagersClue: document.getElementById('plus-villagers-clue'),
   newGameButton: document.getElementById('new-game-button'),
   guessTemplate: document.getElementById('guess-row-template'),
 };
@@ -110,6 +112,8 @@ function renderClues() {
       elements.plusBuysClue,
       elements.plusActionsClue,
       elements.plusVpClue,
+      elements.plusCoffersClue,
+      elements.plusVillagersClue,
     ].forEach((el) => {
       el.textContent = '—';
       el.parentElement.classList.remove('neutral', 'good', 'warn', 'bad');
@@ -128,6 +132,8 @@ function renderClues() {
   const buysStatus = compareNumeric(state.target.plusBuys, latestGuess.plusBuys);
   const actionsStatus = compareNumeric(state.target.plusActions, latestGuess.plusActions);
   const vpStatus = compareNumeric(state.target.plusVictoryPoints, latestGuess.plusVictoryPoints);
+  const coffersStatus = compareNumeric(state.target.plusCoffers, latestGuess.plusCoffers);
+  const villagersStatus = compareNumeric(state.target.plusVillagers, latestGuess.plusVillagers);
 
   applyClueBox(elements.typeClue, typeStatus, formatType(latestGuess.types));
   applyClueBox(elements.costClue, costStatus, statusText(costStatus));
@@ -137,6 +143,8 @@ function renderClues() {
   applyClueBox(elements.plusBuysClue, buysStatus, statusText(buysStatus));
   applyClueBox(elements.plusActionsClue, actionsStatus, statusText(actionsStatus));
   applyClueBox(elements.plusVpClue, vpStatus, statusText(vpStatus));
+  applyClueBox(elements.plusCoffersClue, coffersStatus, statusText(coffersStatus));
+  applyClueBox(elements.plusVillagersClue, villagersStatus, statusText(villagersStatus));
 }
 
 function renderSuggestions() {
@@ -149,7 +157,7 @@ function renderSuggestions() {
 function renderGuessRows() {
   elements.guessList.innerHTML = '';
 
-  for (const guess of state.guesses) {
+  for (const guess of [...state.guesses].reverse()) {
     const row = elements.guessTemplate.content.cloneNode(true);
     const guessName = row.querySelector('.guess-name');
     const stats = row.querySelectorAll('.guess-stat');
@@ -164,6 +172,8 @@ function renderGuessRows() {
     const buysStatus = compareNumeric(state.target.plusBuys, guess.plusBuys);
     const actionsStatus = compareNumeric(state.target.plusActions, guess.plusActions);
     const vpStatus = compareNumeric(state.target.plusVictoryPoints, guess.plusVictoryPoints);
+    const coffersStatus = compareNumeric(state.target.plusCoffers, guess.plusCoffers);
+    const villagersStatus = compareNumeric(state.target.plusVillagers, guess.plusVillagers);
 
     stats[0].querySelector('strong').textContent = formatType(guess.types);
     stats[0].classList.add(typeStatus === 'match' ? 'match' : typeStatus === 'partial' ? 'warn' : 'bad');
@@ -188,6 +198,12 @@ function renderGuessRows() {
 
     stats[7].querySelector('strong').textContent = `${guess.plusVictoryPoints} • ${statusText(vpStatus)}`;
     stats[7].classList.add(vpStatus === 'match' ? 'match' : vpStatus === 'higher' || vpStatus === 'lower' ? 'warn' : 'bad');
+
+    stats[8].querySelector('strong').textContent = `${guess.plusCoffers} • ${statusText(coffersStatus)}`;
+    stats[8].classList.add(coffersStatus === 'match' ? 'match' : coffersStatus === 'higher' || coffersStatus === 'lower' ? 'warn' : 'bad');
+
+    stats[9].querySelector('strong').textContent = `${guess.plusVillagers} • ${statusText(villagersStatus)}`;
+    stats[9].classList.add(villagersStatus === 'match' ? 'match' : villagersStatus === 'higher' || villagersStatus === 'lower' ? 'warn' : 'bad');
 
     elements.guessList.appendChild(row);
   }
@@ -286,6 +302,8 @@ async function init() {
     state.cards = data.cards.map((card) => ({
       ...card,
       plusVictoryPoints: card.plusVictoryPoints ?? 0,
+      plusCoffers: card.plusCoffers ?? Number((card.text || '').match(/\+(\d+) Coffers?/i)?.[1] || 0),
+      plusVillagers: card.plusVillagers ?? Number((card.text || '').match(/\+(\d+) Villagers?/i)?.[1] || 0),
       expansion: card.expansion || data.expansion,
     }));
     renderSuggestions();

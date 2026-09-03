@@ -295,7 +295,7 @@ body {
 
 .guess-row-result {
   display: grid;
-  grid-template-columns: minmax(180px, 1.5fr) repeat(3, minmax(120px, 1fr));
+  grid-template-columns: minmax(180px, 1.5fr) repeat(10, minmax(92px, 1fr));
   gap: 10px;
   padding: 14px 12px;
   border-radius: 14px;
@@ -386,4 +386,78 @@ body {
   .guess-row-result {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+/* Dominion-inspired parchment, ink, brass, and card-table treatment. */
+:root {
+  --bg: #f4eddf;
+  --bg-strong: #102231;
+  --panel: rgba(251, 247, 237, 0.86);
+  --panel-border: rgba(23, 35, 49, 0.22);
+  --gold: #b7853d;
+  --gold-strong: #dfbb71;
+  --forest: #3f7658;
+  --red: #a63d3d;
+  --amber: #a96c24;
+  --text: #172331;
+  --muted: #53606a;
+  --shadow: rgba(28, 33, 37, 0.2);
+}
+
+html, body {
+  font-family: "Source Sans 3", sans-serif;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(183, 133, 61, 0.17), transparent 28%),
+    repeating-linear-gradient(0deg, rgba(23, 35, 49, 0.025) 0, rgba(23, 35, 49, 0.025) 1px, transparent 1px, transparent 5px),
+    #f4eddf;
+  color: #172331;
+}
+
+body { padding: 38px 24px 56px; }
+.topbar { padding-bottom: 22px; border-bottom: 1px solid rgba(23, 35, 49, 0.25); }
+.brand-mark { width: 52px; height: 60px; border: 2px solid #dfbb71; border-radius: 5px; background: #842f3c; color: #dfbb71; font-family: "Cinzel", serif; box-shadow: 4px 4px 0 rgba(95, 36, 48, 0.15); }
+.brand-name, .intro-panel h1, .board-header h2, .guess-name { font-family: "Cinzel", serif; }
+.brand-name { color: #102231; letter-spacing: 0.04em; }
+.brand-subtitle, .eyebrow { color: #842f3c; }
+.ghost-button { border: 1px solid #1d3448; border-radius: 4px; background: transparent; color: #1d3448; }
+.panel { border: 1px solid rgba(23, 35, 49, 0.22); border-radius: 5px; background: rgba(251, 247, 237, 0.82); box-shadow: 0 12px 24px rgba(28, 33, 37, 0.2); }
+.intro-panel { background: linear-gradient(105deg, rgba(29, 52, 72, 0.98), rgba(29, 52, 72, 0.91)); color: #fbf7ed; }
+.intro-panel .eyebrow { color: #dfbb71; }
+.intro-copy { color: #dbe3e6; }
+.clue-panel { padding: 18px; background: #ded0b8; }
+.clue-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.clue-box { min-height: 92px; padding: 14px; border: 1px solid rgba(23, 35, 49, 0.23); border-radius: 3px; background: #fbf7ed; }
+.clue-box.good { border-color: #3f7658; background: #dcebdd; }
+.clue-box.warn { border-color: #a96c24; background: #f3e3be; }
+.clue-box.bad { border-color: #a63d3d; background: #f3d9d3; }
+.clue-label, .guess-stat span { color: #53606a; }
+.clue-box strong { color: #102231; font-family: "Cinzel", serif; font-size: 1.05rem; }
+.guess-panel { background: #102231; }
+#guess-input { border: 1px solid rgba(223, 187, 113, 0.55); border-radius: 3px; background: rgba(255, 255, 255, 0.08); color: #fbf7ed; }
+#guess-input:focus { border-color: #dfbb71; box-shadow: 0 0 0 3px rgba(223, 187, 113, 0.18); }
+.guess-row button { border: 1px solid #dfbb71; border-radius: 3px; background: #b7853d; color: #102231; }
+.message { color: #c4d0d4; }
+.board-header h2 { color: #102231; }
+#guess-count { color: #842f3c; }
+.guess-row-result { grid-template-columns: minmax(150px, 1.4fr) repeat(10, minmax(74px, 1fr)); gap: 8px; border: 1px solid rgba(23, 35, 49, 0.16); border-radius: 3px; background: rgba(255, 255, 255, 0.38); }
+.guess-name { color: #5f2430; }
+.guess-stat.match { border-left-color: #3f7658; }
+.guess-stat.warn { border-left-color: #a96c24; }
+.guess-stat.bad { border-left-color: #a63d3d; }
+.guess-stat.match strong { color: #3f7658; }
+.guess-stat.warn strong { color: #a96c24; }
+.guess-stat.bad strong { color: #a63d3d; }
+
+@media (max-width: 900px) {
+  .clue-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .guess-row-result { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .guess-name { grid-column: 1 / -1; }
+}
+
+@media (max-width: 560px) {
+  body { padding: 20px 12px 36px; }
+  .panel { padding: 17px; }
+  .clue-panel { padding: 10px; }
+  .clue-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .guess-row-result { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
