@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>domindle</title>
+    <meta
+      name="description"
+      content="A Dominion card guessing game inspired by classic Loldle gameplay."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">D</div>
+          <div>
+            <div class="brand-name">domindle</div>
+            <div class="brand-subtitle">All Expansions • Classic Mode</div>
+          </div>
+        </div>
+        <button class="ghost-button" id="new-game-button" type="button">New Game</button>
+      </header>
+
+      <main class="game-shell">
+        <section class="panel intro-panel">
+          <p class="eyebrow">Guess the Dominion card</p>
+          <h1>Find the hidden card</h1>
+          <p class="intro-copy">
+            The game picks one card from every Dominion expansion. Use the clues below to identify it.
+          </p>
+        </section>
+
+        <section class="panel clue-panel">
+          <div class="clue-grid">
+            <div class="clue-box neutral">
+              <span class="clue-label">Card Type</span>
+              <strong id="type-clue">—</strong>
+            </div>
+            <div class="clue-box neutral">
+              <span class="clue-label">Cost</span>
+              <strong id="cost-clue">—</strong>
+            </div>
+            <div class="clue-box neutral">
+              <span class="clue-label">Expansion</span>
+              <strong id="expansion-clue">—</strong>
+            </div>
+            <div class="clue-box neutral">
+              <span class="clue-label">+Cards</span>
+              <strong id="plus-cards-clue">—</strong>
+            </div>
+            <div class="clue-box neutral">
+              <span class="clue-label">+Coins</span>
+              <strong id="plus-coins-clue">—</strong>
+            </div>
+            <div class="clue-box neutral">
+              <span class="clue-label">+Buy</span>
+              <strong id="plus-buys-clue">—</strong>
+            </div>
+            <div class="clue-box neutral">
+              <span class="clue-label">+Action</span>
+              <strong id="plus-actions-clue">—</strong>
+            </div>
+            <div class="clue-box neutral">
+              <span class="clue-label">+VP</span>
+              <strong id="plus-vp-clue">—</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel guess-panel">
+          <form id="guess-form" autocomplete="off">
+            <label class="sr-only" for="guess-input">Guess a Dominion card</label>
+            <div class="guess-row">
+              <input
+                id="guess-input"
+                list="card-suggestions"
+                type="text"
+                placeholder="Type a Dominion card name…"
+                aria-label="Guess a Dominion card"
+              />
+              <button type="submit">Guess</button>
+            </div>
+            <datalist id="card-suggestions"></datalist>
+          </form>
+
+          <div id="message" class="message" aria-live="polite"></div>
+        </section>
+
+        <section class="panel board-panel">
+          <div class="board-header">
+            <h2>Your guesses</h2>
+            <span id="guess-count">0 / 6</span>
+          </div>
+
+          <div class="legend">
+            <span><i class="dot good"></i> Correct</span>
+            <span><i class="dot warn"></i> Higher / Lower</span>
+            <span><i class="dot bad"></i> Wrong</span>
+          </div>
+
+          <div id="guess-list" class="guess-list" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="guess-row-template">
+      <div class="guess-row-result">
+        <div class="guess-name"></div>
+        <div class="guess-stat"><span>Type</span><strong></strong></div>
+        <div class="guess-stat"><span>Cost</span><strong></strong></div>
+        <div class="guess-stat"><span>Expansion</span><strong></strong></div>
+        <div class="guess-stat"><span>+Cards</span><strong></strong></div>
+        <div class="guess-stat"><span>+Coins</span><strong></strong></div>
+        <div class="guess-stat"><span>+Buy</span><strong></strong></div>
+        <div class="guess-stat"><span>+Action</span><strong></strong></div>
+        <div class="guess-stat"><span>+VP</span><strong></strong></div>
+      </div>
+    </template>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
