@@ -24,6 +24,7 @@ const elements = {
   plusVpClue: document.getElementById('plus-vp-clue'),
   plusCoffersClue: document.getElementById('plus-coffers-clue'),
   plusVillagersClue: document.getElementById('plus-villagers-clue'),
+  plusDebtClue: document.getElementById('plus-debt-clue'),
   newGameButton: document.getElementById('new-game-button'),
   guessTemplate: document.getElementById('guess-row-template'),
 };
@@ -56,6 +57,25 @@ function compareNumeric(actualValue, guessValue) {
   if (actualValue == null || guessValue == null) return 'bad';
   if (actualValue === guessValue) return 'match';
   return guessValue < actualValue ? 'higher' : 'lower';
+}
+
+function compareCost(actualCard, guessCard) {
+  const actualCost = [actualCard.cost, actualCard.costInPotions, actualCard.costInDebt];
+  const guessCost = [guessCard.cost, guessCard.costInPotions, guessCard.costInDebt];
+
+  if (actualCost.every((value, index) => value === guessCost[index])) return 'match';
+
+  const actualAmounts = actualCost.filter((value) => value > 0);
+  const guessAmounts = guessCost.filter((value) => value > 0);
+  return actualAmounts.some((value) => guessAmounts.includes(value)) ? 'partial' : 'bad';
+}
+
+function formatCost(card) {
+  const parts = [];
+  if (card.cost > 0 || (!card.costInPotions && !card.costInDebt)) parts.push(`${card.cost} coins`);
+  if (card.costInPotions) parts.push(card.costInPotions === true ? 'Potion' : `${card.costInPotions} Potion`);
+  if (card.costInDebt) parts.push(`${card.costInDebt} Debt`);
+  return parts.join(' + ');
 }
 
 function compareExpansion(actualExpansion, guessExpansion) {
@@ -114,6 +134,7 @@ function renderClues() {
       elements.plusVpClue,
       elements.plusCoffersClue,
       elements.plusVillagersClue,
+      elements.plusDebtClue,
     ].forEach((el) => {
       el.textContent = '—';
       el.parentElement.classList.remove('neutral', 'good', 'warn', 'bad');
@@ -125,7 +146,7 @@ function renderClues() {
   const latestGuess = state.guesses[state.guesses.length - 1];
 
   const typeStatus = compareType(state.target.types, latestGuess.types);
-  const costStatus = compareNumeric(state.target.cost, latestGuess.cost);
+  const costStatus = compareCost(state.target, latestGuess);
   const expansionStatus = compareExpansion(state.target.expansion, latestGuess.expansion);
   const cardsStatus = compareNumeric(state.target.plusCards, latestGuess.plusCards);
   const coinsStatus = compareNumeric(state.target.plusCoins, latestGuess.plusCoins);
@@ -134,9 +155,10 @@ function renderClues() {
   const vpStatus = compareNumeric(state.target.plusVictoryPoints, latestGuess.plusVictoryPoints);
   const coffersStatus = compareNumeric(state.target.plusCoffers, latestGuess.plusCoffers);
   const villagersStatus = compareNumeric(state.target.plusVillagers, latestGuess.plusVillagers);
+  const debtStatus = compareNumeric(state.target.plusDebt, latestGuess.plusDebt);
 
   applyClueBox(elements.typeClue, typeStatus, formatType(latestGuess.types));
-  applyClueBox(elements.costClue, costStatus, statusText(costStatus));
+  applyClueBox(elements.costClue, costStatus, formatCost(latestGuess));
   applyClueBox(elements.expansionClue, expansionStatus, formatExpansion(latestGuess.expansion));
   applyClueBox(elements.plusCardsClue, cardsStatus, statusText(cardsStatus));
   applyClueBox(elements.plusCoinsClue, coinsStatus, statusText(coinsStatus));
@@ -145,6 +167,7 @@ function renderClues() {
   applyClueBox(elements.plusVpClue, vpStatus, statusText(vpStatus));
   applyClueBox(elements.plusCoffersClue, coffersStatus, statusText(coffersStatus));
   applyClueBox(elements.plusVillagersClue, villagersStatus, statusText(villagersStatus));
+  applyClueBox(elements.plusDebtClue, debtStatus, statusText(debtStatus));
 }
 
 function renderSuggestions() {
@@ -165,7 +188,7 @@ function renderGuessRows() {
     guessName.textContent = guess.name;
 
     const typeStatus = compareType(state.target.types, guess.types);
-    const costStatus = compareNumeric(state.target.cost, guess.cost);
+    const costStatus = compareCost(state.target, guess);
     const expansionStatus = compareExpansion(state.target.expansion, guess.expansion);
     const cardsStatus = compareNumeric(state.target.plusCards, guess.plusCards);
     const coinsStatus = compareNumeric(state.target.plusCoins, guess.plusCoins);
@@ -174,12 +197,13 @@ function renderGuessRows() {
     const vpStatus = compareNumeric(state.target.plusVictoryPoints, guess.plusVictoryPoints);
     const coffersStatus = compareNumeric(state.target.plusCoffers, guess.plusCoffers);
     const villagersStatus = compareNumeric(state.target.plusVillagers, guess.plusVillagers);
+    const debtStatus = compareNumeric(state.target.plusDebt, guess.plusDebt);
 
     stats[0].querySelector('strong').textContent = formatType(guess.types);
     stats[0].classList.add(typeStatus === 'match' ? 'match' : typeStatus === 'partial' ? 'warn' : 'bad');
 
-    stats[1].querySelector('strong').textContent = `${guess.cost} • ${statusText(costStatus)}`;
-    stats[1].classList.add(costStatus === 'match' ? 'match' : costStatus === 'higher' || costStatus === 'lower' ? 'warn' : 'bad');
+    stats[1].querySelector('strong').textContent = `${formatCost(guess)} • ${statusText(costStatus)}`;
+    stats[1].classList.add(costStatus === 'match' ? 'match' : costStatus === 'partial' ? 'warn' : 'bad');
 
     stats[2].querySelector('strong').textContent = formatExpansion(guess.expansion);
     stats[2].classList.add(expansionStatus === 'match' ? 'match' : 'bad');
@@ -204,6 +228,9 @@ function renderGuessRows() {
 
     stats[9].querySelector('strong').textContent = `${guess.plusVillagers} • ${statusText(villagersStatus)}`;
     stats[9].classList.add(villagersStatus === 'match' ? 'match' : villagersStatus === 'higher' || villagersStatus === 'lower' ? 'warn' : 'bad');
+
+    stats[10].querySelector('strong').textContent = `${guess.plusDebt} • ${statusText(debtStatus)}`;
+    stats[10].classList.add(debtStatus === 'match' ? 'match' : debtStatus === 'higher' || debtStatus === 'lower' ? 'warn' : 'bad');
 
     elements.guessList.appendChild(row);
   }
@@ -304,6 +331,7 @@ async function init() {
       plusVictoryPoints: card.plusVictoryPoints ?? 0,
       plusCoffers: card.plusCoffers ?? Number((card.text || '').match(/\+(\d+) Coffers?/i)?.[1] || 0),
       plusVillagers: card.plusVillagers ?? Number((card.text || '').match(/\+(\d+) Villagers?/i)?.[1] || 0),
+      plusDebt: card.plusDebt ?? Number((card.text || '').match(/(?:\+|take |add )(\d+) Debt/i)?.[1] || 0),
       expansion: card.expansion || data.expansion,
     }));
     renderSuggestions();

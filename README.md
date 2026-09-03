@@ -1,6 +1,6 @@
 # domindle
 
-domindle is a Dominion card guessing game inspired by the classic mode of Loldle. Each round selects a hidden card from the local Dominion card database. You have six guesses to find it using category feedback.
+domindle is a Dominion card guessing game inspired by similar game modes (loldle, pokedle, etc.). Each round selects a hidden card from the local Dominion card database. You have six guesses to find it using category feedback.
 
 ## Features
 
@@ -27,10 +27,13 @@ After the first guess, domindle compares these categories with the hidden card:
 - +VP
 - +Coffers
 - +Villagers
+- +Debt
 
 Green means an exact match. Amber means a partial match or a higher/lower hint. Red means the value does not match.
 
 Card types use exact set matching for green feedback. For example, `Action` is only an exact match for another `Action` card. `Action / Reaction` receives partial feedback because it overlaps but is not identical.
+
+Costs compare their coin, Potion, and Debt components. Green means all components match exactly. Amber means the costs share a meaningful amount, including matching amounts in different currencies such as 8 coins and 8 debt. The +Debt category separately compares debt produced by a card's text.
 
 ## Run Locally
 
@@ -86,6 +89,7 @@ The active dataset keeps a consistent record shape for every card. Important fie
 	"plusVictoryPoints": 0,
 	"plusCoffers": 0,
 	"plusVillagers": 0,
+	"plusDebt": 0,
 	"victoryPoints": 0,
 	"coinValue": 1,
 	"isKingdom": true,

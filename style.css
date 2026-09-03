@@ -295,7 +295,7 @@ body {
 
 .guess-row-result {
   display: grid;
-  grid-template-columns: minmax(180px, 1.5fr) repeat(10, minmax(92px, 1fr));
+  grid-template-columns: minmax(180px, 1.5fr) repeat(11, minmax(92px, 1fr));
   gap: 10px;
   padding: 14px 12px;
   border-radius: 14px;
@@ -439,7 +439,7 @@ body { padding: 38px 24px 56px; }
 .message { color: #c4d0d4; }
 .board-header h2 { color: #102231; }
 #guess-count { color: #842f3c; }
-.guess-row-result { grid-template-columns: minmax(150px, 1.4fr) repeat(10, minmax(74px, 1fr)); gap: 8px; border: 1px solid rgba(23, 35, 49, 0.16); border-radius: 3px; background: rgba(255, 255, 255, 0.38); }
+.guess-row-result { grid-template-columns: minmax(150px, 1.4fr) repeat(11, minmax(74px, 1fr)); gap: 8px; border: 1px solid rgba(23, 35, 49, 0.16); border-radius: 3px; background: rgba(255, 255, 255, 0.38); }
 .guess-name { color: #5f2430; }
 .guess-stat.match { border-left-color: #3f7658; }
 .guess-stat.warn { border-left-color: #a96c24; }
