@@ -640,33 +640,6 @@
       "plusVillagers": 0
     },
     {
-      "id": "augurs",
-      "name": "Augurs",
-      "types": [
-        "Action",
-        "Augur"
-      ],
-      "cost": 3,
-      "costInPotions": 0,
-      "costInDebt": 0,
-      "text": "Setup: This pile starts the game with 4 copies each of Herb Gatherer, Acolyte, Sorceress, and Sibyl, in that order. Only the top card can be gained or bought.",
-      "plusActions": 0,
-      "plusCards": 0,
-      "plusBuys": 0,
-      "plusCoins": 0,
-      "plusVictoryPoints": 0,
-      "isKingdom": true,
-      "victoryPoints": 0,
-      "coinValue": 0,
-      "expansion": "Allies",
-      "purpose": "Kingdom Pile",
-      "editions": [
-        1
-      ],
-      "plusCoffers": 0,
-      "plusVillagers": 0
-    },
-    {
       "id": "avanto",
       "name": "Avanto",
       "types": [
