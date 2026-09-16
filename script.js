@@ -328,7 +328,7 @@ function renderGuessRows() {
     stats[0].querySelector('strong').textContent = formatType(guess.types);
     stats[0].classList.add(typeStatus === 'match' ? 'match' : typeStatus === 'partial' ? 'warn' : 'bad');
 
-    stats[1].querySelector('strong').textContent = `${formatCost(guess)} ${costDirection(state.target, guess)} • ${statusText(costStatus)}`.trim();
+    stats[1].querySelector('strong').textContent = `${formatCost(guess)} ${costDirection(state.target, guess)}`.trim(); // • ${statusText(costStatus)}
     stats[1].classList.add(costStatus === 'match' ? 'match' : costStatus === 'partial' ? 'warn' : 'bad');
 
     stats[2].querySelector('strong').textContent = `${formatExpansion(guess.expansion)} ${expansionDirection(state.target, guess)}`.trim();
@@ -372,7 +372,7 @@ function endGame(won) {
 
   if (won) {
     setMessage(`Correct! You guessed ${state.target.name}.`, 'success');
-    showWinModal();
+    //showWinModal();
   } else {
     setMessage(`Out of guesses. The card was ${state.target.name}.`, 'error');
   }
