@@ -1,14 +1,14 @@
 # domindle
 
-domindle is a Dominion card guessing game inspired by similar game modes (loldle, pokedle, etc.). Each round selects a hidden card from the local Dominion card database. You have six guesses to find it using category feedback.
+domindle is a Dominion card guessing game inspired by similar game modes (loldle, pokedle, etc.). Each round selects a hidden card from the local Dominion card database. Keep guessing until you find it using category feedback.
 
 ## Features
 
 - Local, browser-based game with no backend or API dependency
-- Six guesses per round
+- Unlimited guesses per round
 - Newest guesses appear first
 - Exact, partial, and incorrect type feedback
-- Higher/lower feedback for numeric categories
+- Directional arrows for numeric guesses
 - Dominion-inspired parchment, navy, oxblood, and brass visual design
 - Card suggestions through the browser autocomplete list
 - Card data for all supported expansions and promo cards
@@ -29,11 +29,13 @@ After the first guess, domindle compares these categories with the hidden card:
 - +Villagers
 - +Debt
 
-Green means an exact match. Amber means a partial match or a higher/lower hint. Red means the value does not match.
+Green means an exact match. Amber means a partial type or cost match. Red means the value does not match. Numeric categories show an arrow beside the guessed amount pointing toward the target amount.
 
 Card types use exact set matching for green feedback. For example, `Action` is only an exact match for another `Action` card. `Action / Reaction` receives partial feedback because it overlaps but is not identical.
 
-Costs compare their coin, Potion, and Debt components. Green means all components match exactly. Amber means the costs share a meaningful amount, including matching amounts in different currencies such as 8 coins and 8 debt. The +Debt category separately compares debt produced by a card's text.
+Costs compare their coin, Potion, and Debt components. Green means all components match exactly. Amber means at least one cost type has the same amount. Red means no cost type has the same amount. The cost display includes an arrow toward the target cost: missing or extra cost types take precedence, then the numeric amount is compared. `↔` means the amount matches but the currency differs. The +Debt category separately compares debt produced by a card's text.
+
+Expansion arrows use the official release order. Promotional cards use their individual release dates, including Envoy, Black Market, Stash, Walled Village, Governor, Prince, Summon, Sauna/Avanto, Dismantle, Church, Captain, and Marchland.
 
 ## Run Locally
 

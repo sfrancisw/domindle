@@ -1,4 +1,3 @@
-const MAX_GUESSES = 6;
 const state = {
   cards: [],
   target: null,
@@ -10,6 +9,7 @@ const state = {
 const elements = {
   guessForm: document.getElementById('guess-form'),
   guessInput: document.getElementById('guess-input'),
+  suggestionMenu: document.getElementById('card-suggestions'),
   guessList: document.getElementById('guess-list'),
   cardSuggestions: document.getElementById('card-suggestions'),
   message: document.getElementById('message'),
@@ -26,6 +26,11 @@ const elements = {
   plusVillagersClue: document.getElementById('plus-villagers-clue'),
   plusDebtClue: document.getElementById('plus-debt-clue'),
   newGameButton: document.getElementById('new-game-button'),
+  winModal: document.getElementById('win-modal'),
+  winClose: document.getElementById('win-close'),
+  winNewGame: document.getElementById('win-new-game'),
+  winCardName: document.getElementById('win-card-name'),
+  confetti: document.getElementById('confetti'),
   guessTemplate: document.getElementById('guess-row-template'),
 };
 
@@ -55,19 +60,91 @@ function compareType(actualTypes, guessTypes) {
 
 function compareNumeric(actualValue, guessValue) {
   if (actualValue == null || guessValue == null) return 'bad';
-  if (actualValue === guessValue) return 'match';
-  return guessValue < actualValue ? 'higher' : 'lower';
+  return actualValue === guessValue ? 'match' : 'bad';
+}
+
+function numericDirection(actualValue, guessValue) {
+  if (actualValue == null || guessValue == null || actualValue === guessValue) return '';
+  return guessValue < actualValue ? '↑' : '↓';
+}
+
+function formatNumericGuess(actualValue, guessValue) {
+  const arrow = numericDirection(actualValue, guessValue);
+  return arrow ? `${guessValue} ${arrow}` : `${guessValue}`;
+}
+
+const expansionReleaseOrder = {
+  Base: 200810,
+  Intrigue: 200907,
+  Seaside: 200910,
+  Alchemy: 201005,
+  Prosperity: 201010,
+  'Cornucopia and Guilds': 201106,
+  Hinterlands: 201110,
+  'Dark Ages': 201208,
+  Adventures: 201504,
+  Empires: 201606,
+  Nocturne: 201711,
+  Renaissance: 201811,
+  Menagerie: 202003,
+  Allies: 202203,
+  Plunder: 202212,
+  'Rising Sun': 202408,
+  Arcana: 202601,
+};
+
+const promoReleaseOrder = {
+  Envoy: 200811,
+  'Black Market': 200903,
+  Stash: 201002,
+  'Walled Village': 201106,
+  Governor: 201110,
+  Prince: 201406,
+  Summon: 201511,
+  Sauna: 201609,
+  Avanto: 201609,
+  Dismantle: 201712,
+  Church: 201908,
+  Captain: 201908,
+  Marchland: 202403,
+};
+
+function costComponents(card) {
+  return [
+    ['coins', Number(card.cost) || 0],
+    ['potion', card.costInPotions === true ? 1 : Number(card.costInPotions) || 0],
+    ['debt', Number(card.costInDebt) || 0],
+  ].filter(([, amount]) => amount > 0);
 }
 
 function compareCost(actualCard, guessCard) {
-  const actualCost = [actualCard.cost, actualCard.costInPotions, actualCard.costInDebt];
-  const guessCost = [guessCard.cost, guessCard.costInPotions, guessCard.costInDebt];
+  const actualCost = costComponents(actualCard);
+  const guessCost = costComponents(guessCard);
 
-  if (actualCost.every((value, index) => value === guessCost[index])) return 'match';
+  if (actualCost.length === guessCost.length && actualCost.every(([type, amount], index) => (
+    type === guessCost[index][0] && amount === guessCost[index][1]
+  ))) return 'match';
 
-  const actualAmounts = actualCost.filter((value) => value > 0);
-  const guessAmounts = guessCost.filter((value) => value > 0);
-  return actualAmounts.some((value) => guessAmounts.includes(value)) ? 'partial' : 'bad';
+  const matchingComponent = actualCost.some(([type, amount]) => (
+    guessCost.some(([guessType, guessAmount]) => type === guessType && amount === guessAmount)
+  ));
+  return matchingComponent ? 'partial' : 'bad';
+}
+
+function costDirection(actualCard, guessCard) {
+  const actualCost = costComponents(actualCard);
+  const guessCost = costComponents(guessCard);
+  if (compareCost(actualCard, guessCard) === 'match') return '';
+
+  if (actualCost.length !== guessCost.length) {
+    return actualCost.length > guessCost.length ? '↑' : '↓';
+  }
+
+  const actualTotal = actualCost.reduce((total, [, amount]) => total + amount, 0);
+  const guessTotal = guessCost.reduce((total, [, amount]) => total + amount, 0);
+  if (actualTotal > guessTotal) return '↑';
+  if (actualTotal < guessTotal) return '↓';
+  return '↔';
 }
 
 function formatCost(card) {
@@ -78,9 +155,21 @@ function formatCost(card) {
   return parts.join(' + ');
 }
 
-function compareExpansion(actualExpansion, guessExpansion) {
-  if (!actualExpansion || !guessExpansion) return 'bad';
-  return actualExpansion === guessExpansion ? 'match' : 'bad';
+function releaseRank(card) {
+  if (card.expansion === 'Promo') return promoReleaseOrder[card.name] || 0;
+  return expansionReleaseOrder[card.expansion] || 0;
+}
+
+function compareExpansion(actualCard, guessCard) {
+  if (!actualCard.expansion || !guessCard.expansion) return 'bad';
+  return actualCard.expansion === guessCard.expansion ? 'match' : 'bad';
+}
+
+function expansionDirection(actualCard, guessCard) {
+  const actualRank = releaseRank(actualCard);
+  const guessRank = releaseRank(guessCard);
+  if (!actualRank || !guessRank || actualRank === guessRank) return '';
+  return guessRank < actualRank ? '↑' : '↓';
 }
 
 function formatType(types) {
@@ -96,8 +185,6 @@ function formatExpansion(value) {
 function statusText(status) {
   if (status === 'match') return 'Exact';
   if (status === 'partial') return 'Partial';
-  if (status === 'higher') return 'Higher';
-  if (status === 'lower') return 'Lower';
   return 'Wrong';
 }
 
@@ -107,7 +194,7 @@ function applyClueBox(boxElement, status, text) {
 
   if (status === 'match') {
     boxElement.parentElement.classList.add('good');
-  } else if (status === 'partial' || status === 'higher' || status === 'lower') {
+  } else if (status === 'partial') {
     boxElement.parentElement.classList.add('warn');
   } else if (status === 'bad') {
     boxElement.parentElement.classList.add('bad');
@@ -119,6 +206,31 @@ function applyClueBox(boxElement, status, text) {
 function setMessage(text, kind = '') {
   elements.message.textContent = text;
   elements.message.className = `message ${kind}`.trim();
+}
+
+function hideWinModal() {
+  elements.winModal.hidden = true;
+  elements.confetti.innerHTML = '';
+  document.body.classList.remove('modal-open');
+}
+
+function showWinModal() {
+  elements.winCardName.textContent = state.target.name;
+  elements.confetti.innerHTML = '';
+  const colors = ['#b7853d', '#dfbb71', '#842f3c', '#3f7658', '#1d3448'];
+  for (let index = 0; index < 34; index += 1) {
+    const piece = document.createElement('span');
+    piece.className = 'confetti-piece';
+    piece.style.setProperty('--confetti-color', colors[index % colors.length]);
+    piece.style.setProperty('--confetti-x', `${(Math.random() - 0.5) * 110}vw`);
+    piece.style.setProperty('--confetti-y', `${70 + Math.random() * 35}vh`);
+    piece.style.setProperty('--confetti-delay', `${Math.random() * 0.18}s`);
+    piece.style.setProperty('--confetti-rotate', `${Math.random() * 720 - 360}deg`);
+    elements.confetti.appendChild(piece);
+  }
+  elements.winModal.hidden = false;
+  document.body.classList.add('modal-open');
+  elements.winNewGame.focus();
 }
 
 function renderClues() {
@@ -147,7 +259,7 @@ function renderClues() {
 
   const typeStatus = compareType(state.target.types, latestGuess.types);
   const costStatus = compareCost(state.target, latestGuess);
-  const expansionStatus = compareExpansion(state.target.expansion, latestGuess.expansion);
+  const expansionStatus = compareExpansion(state.target, latestGuess);
   const cardsStatus = compareNumeric(state.target.plusCards, latestGuess.plusCards);
   const coinsStatus = compareNumeric(state.target.plusCoins, latestGuess.plusCoins);
   const buysStatus = compareNumeric(state.target.plusBuys, latestGuess.plusBuys);
@@ -158,23 +270,37 @@ function renderClues() {
   const debtStatus = compareNumeric(state.target.plusDebt, latestGuess.plusDebt);
 
   applyClueBox(elements.typeClue, typeStatus, formatType(latestGuess.types));
-  applyClueBox(elements.costClue, costStatus, formatCost(latestGuess));
-  applyClueBox(elements.expansionClue, expansionStatus, formatExpansion(latestGuess.expansion));
-  applyClueBox(elements.plusCardsClue, cardsStatus, statusText(cardsStatus));
-  applyClueBox(elements.plusCoinsClue, coinsStatus, statusText(coinsStatus));
-  applyClueBox(elements.plusBuysClue, buysStatus, statusText(buysStatus));
-  applyClueBox(elements.plusActionsClue, actionsStatus, statusText(actionsStatus));
-  applyClueBox(elements.plusVpClue, vpStatus, statusText(vpStatus));
-  applyClueBox(elements.plusCoffersClue, coffersStatus, statusText(coffersStatus));
-  applyClueBox(elements.plusVillagersClue, villagersStatus, statusText(villagersStatus));
-  applyClueBox(elements.plusDebtClue, debtStatus, statusText(debtStatus));
+  applyClueBox(elements.costClue, costStatus, `${formatCost(latestGuess)} ${costDirection(state.target, latestGuess)}`.trim());
+  applyClueBox(elements.expansionClue, expansionStatus, `${formatExpansion(latestGuess.expansion)} ${expansionDirection(state.target, latestGuess)}`.trim());
+  applyClueBox(elements.plusCardsClue, cardsStatus, formatNumericGuess(state.target.plusCards, latestGuess.plusCards));
+  applyClueBox(elements.plusCoinsClue, coinsStatus, formatNumericGuess(state.target.plusCoins, latestGuess.plusCoins));
+  applyClueBox(elements.plusBuysClue, buysStatus, formatNumericGuess(state.target.plusBuys, latestGuess.plusBuys));
+  applyClueBox(elements.plusActionsClue, actionsStatus, formatNumericGuess(state.target.plusActions, latestGuess.plusActions));
+  applyClueBox(elements.plusVpClue, vpStatus, formatNumericGuess(state.target.plusVictoryPoints, latestGuess.plusVictoryPoints));
+  applyClueBox(elements.plusCoffersClue, coffersStatus, formatNumericGuess(state.target.plusCoffers, latestGuess.plusCoffers));
+  applyClueBox(elements.plusVillagersClue, villagersStatus, formatNumericGuess(state.target.plusVillagers, latestGuess.plusVillagers));
+  applyClueBox(elements.plusDebtClue, debtStatus, formatNumericGuess(state.target.plusDebt, latestGuess.plusDebt));
 }
 
 function renderSuggestions() {
-  const options = state.cards
-    .map((card) => `<option value="${card.name}"></option>`)
-    .join('');
-  elements.cardSuggestions.innerHTML = options;
+  renderSuggestionMenu('');
+}
+
+function renderSuggestionMenu(query) {
+  const normalizedQuery = query.trim().toLowerCase();
+  const matches = state.cards
+    .filter((card) => card.name.toLowerCase().includes(normalizedQuery))
+    .slice(0, 8);
+
+  elements.suggestionMenu.innerHTML = matches.map((card) => (
+    `<button class="suggestion-option" type="button" role="option" data-card-name="${card.name}">${card.name}<span>${card.expansion}</span></button>`
+  )).join('');
+  elements.guessInput.setAttribute('aria-expanded', matches.length > 0 ? 'true' : 'false');
+}
+
+function hideSuggestions() {
+  elements.suggestionMenu.innerHTML = '';
+  elements.guessInput.setAttribute('aria-expanded', 'false');
 }
 
 function renderGuessRows() {
@@ -189,7 +315,7 @@ function renderGuessRows() {
 
     const typeStatus = compareType(state.target.types, guess.types);
     const costStatus = compareCost(state.target, guess);
-    const expansionStatus = compareExpansion(state.target.expansion, guess.expansion);
+    const expansionStatus = compareExpansion(state.target, guess);
     const cardsStatus = compareNumeric(state.target.plusCards, guess.plusCards);
     const coinsStatus = compareNumeric(state.target.plusCoins, guess.plusCoins);
     const buysStatus = compareNumeric(state.target.plusBuys, guess.plusBuys);
@@ -202,40 +328,40 @@ function renderGuessRows() {
     stats[0].querySelector('strong').textContent = formatType(guess.types);
     stats[0].classList.add(typeStatus === 'match' ? 'match' : typeStatus === 'partial' ? 'warn' : 'bad');
 
-    stats[1].querySelector('strong').textContent = `${formatCost(guess)} • ${statusText(costStatus)}`;
+    stats[1].querySelector('strong').textContent = `${formatCost(guess)} ${costDirection(state.target, guess)} • ${statusText(costStatus)}`.trim();
     stats[1].classList.add(costStatus === 'match' ? 'match' : costStatus === 'partial' ? 'warn' : 'bad');
 
-    stats[2].querySelector('strong').textContent = formatExpansion(guess.expansion);
+    stats[2].querySelector('strong').textContent = `${formatExpansion(guess.expansion)} ${expansionDirection(state.target, guess)}`.trim();
     stats[2].classList.add(expansionStatus === 'match' ? 'match' : 'bad');
 
-    stats[3].querySelector('strong').textContent = `${guess.plusCards} • ${statusText(cardsStatus)}`;
-    stats[3].classList.add(cardsStatus === 'match' ? 'match' : cardsStatus === 'higher' || cardsStatus === 'lower' ? 'warn' : 'bad');
+    stats[3].querySelector('strong').textContent = formatNumericGuess(state.target.plusCards, guess.plusCards);
+    stats[3].classList.add(cardsStatus === 'match' ? 'match' : 'bad');
 
-    stats[4].querySelector('strong').textContent = `${guess.plusCoins} • ${statusText(coinsStatus)}`;
-    stats[4].classList.add(coinsStatus === 'match' ? 'match' : coinsStatus === 'higher' || coinsStatus === 'lower' ? 'warn' : 'bad');
+    stats[4].querySelector('strong').textContent = formatNumericGuess(state.target.plusCoins, guess.plusCoins);
+    stats[4].classList.add(coinsStatus === 'match' ? 'match' : 'bad');
 
-    stats[5].querySelector('strong').textContent = `${guess.plusBuys} • ${statusText(buysStatus)}`;
-    stats[5].classList.add(buysStatus === 'match' ? 'match' : buysStatus === 'higher' || buysStatus === 'lower' ? 'warn' : 'bad');
+    stats[5].querySelector('strong').textContent = formatNumericGuess(state.target.plusBuys, guess.plusBuys);
+    stats[5].classList.add(buysStatus === 'match' ? 'match' : 'bad');
 
-    stats[6].querySelector('strong').textContent = `${guess.plusActions} • ${statusText(actionsStatus)}`;
-    stats[6].classList.add(actionsStatus === 'match' ? 'match' : actionsStatus === 'higher' || actionsStatus === 'lower' ? 'warn' : 'bad');
+    stats[6].querySelector('strong').textContent = formatNumericGuess(state.target.plusActions, guess.plusActions);
+    stats[6].classList.add(actionsStatus === 'match' ? 'match' : 'bad');
 
-    stats[7].querySelector('strong').textContent = `${guess.plusVictoryPoints} • ${statusText(vpStatus)}`;
-    stats[7].classList.add(vpStatus === 'match' ? 'match' : vpStatus === 'higher' || vpStatus === 'lower' ? 'warn' : 'bad');
+    stats[7].querySelector('strong').textContent = formatNumericGuess(state.target.plusVictoryPoints, guess.plusVictoryPoints);
+    stats[7].classList.add(vpStatus === 'match' ? 'match' : 'bad');
 
-    stats[8].querySelector('strong').textContent = `${guess.plusCoffers} • ${statusText(coffersStatus)}`;
-    stats[8].classList.add(coffersStatus === 'match' ? 'match' : coffersStatus === 'higher' || coffersStatus === 'lower' ? 'warn' : 'bad');
+    stats[8].querySelector('strong').textContent = formatNumericGuess(state.target.plusCoffers, guess.plusCoffers);
+    stats[8].classList.add(coffersStatus === 'match' ? 'match' : 'bad');
 
-    stats[9].querySelector('strong').textContent = `${guess.plusVillagers} • ${statusText(villagersStatus)}`;
-    stats[9].classList.add(villagersStatus === 'match' ? 'match' : villagersStatus === 'higher' || villagersStatus === 'lower' ? 'warn' : 'bad');
+    stats[9].querySelector('strong').textContent = formatNumericGuess(state.target.plusVillagers, guess.plusVillagers);
+    stats[9].classList.add(villagersStatus === 'match' ? 'match' : 'bad');
 
-    stats[10].querySelector('strong').textContent = `${guess.plusDebt} • ${statusText(debtStatus)}`;
-    stats[10].classList.add(debtStatus === 'match' ? 'match' : debtStatus === 'higher' || debtStatus === 'lower' ? 'warn' : 'bad');
+    stats[10].querySelector('strong').textContent = formatNumericGuess(state.target.plusDebt, guess.plusDebt);
+    stats[10].classList.add(debtStatus === 'match' ? 'match' : 'bad');
 
     elements.guessList.appendChild(row);
   }
 
-  elements.guessCount.textContent = `${state.guesses.length} / ${MAX_GUESSES}`;
+  elements.guessCount.textContent = `${state.guesses.length} ${state.guesses.length === 1 ? 'guess' : 'guesses'}`;
 }
 
 function endGame(won) {
@@ -246,6 +372,7 @@ function endGame(won) {
 
   if (won) {
     setMessage(`Correct! You guessed ${state.target.name}.`, 'success');
+    showWinModal();
   } else {
     setMessage(`Out of guesses. The card was ${state.target.name}.`, 'error');
   }
@@ -277,6 +404,7 @@ function handleGuess(event) {
 
   state.guesses.push(guessedCard);
   elements.guessInput.value = '';
+  hideSuggestions();
   renderGuessRows();
   renderClues();
 
@@ -285,15 +413,11 @@ function handleGuess(event) {
     return;
   }
 
-  if (state.guesses.length >= MAX_GUESSES) {
-    endGame(false);
-    return;
-  }
-
   setMessage('Not quite. The clue panel has updated with the category feedback.', '');
 }
 
 function startNewGame() {
+  hideWinModal();
   const availableCards = shuffle([...state.cards]);
   state.target = availableCards[Math.floor(Math.random() * availableCards.length)];
   state.guesses = [];
@@ -344,5 +468,22 @@ async function init() {
 
 elements.guessForm.addEventListener('submit', handleGuess);
 elements.newGameButton.addEventListener('click', startNewGame);
+elements.winClose.addEventListener('click', hideWinModal);
+elements.winNewGame.addEventListener('click', startNewGame);
+elements.winModal.addEventListener('click', (event) => {
+  if (event.target === elements.winModal) hideWinModal();
+});
+elements.guessInput.addEventListener('focus', () => renderSuggestionMenu(elements.guessInput.value));
+elements.guessInput.addEventListener('input', () => renderSuggestionMenu(elements.guessInput.value));
+elements.suggestionMenu.addEventListener('click', (event) => {
+  const option = event.target.closest('.suggestion-option');
+  if (!option) return;
+  elements.guessInput.value = option.dataset.cardName;
+  hideSuggestions();
+  elements.guessInput.focus();
+});
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.guess-input-wrap')) hideSuggestions();
+});
 
 init();

@@ -39,49 +39,50 @@
         </section>
 
         <section class="panel clue-panel">
+          <h2 class="clue-heading">Most recent guess</h2>
           <div class="clue-grid">
             <div class="clue-box neutral">
-              <span class="clue-label">Card Type</span>
+              <span class="clue-label-row"><span class="clue-label">Card Type</span><button class="info-button" type="button" aria-label="Card Type rules" data-tooltip="Green: all types match. Yellow: at least one type matches. Red: no types match.">i</button></span>
               <strong id="type-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">Cost</span>
+              <span class="clue-label-row"><span class="clue-label">Cost</span><button class="info-button" type="button" aria-label="Cost rules" data-tooltip="Green: every cost component matches. Yellow: one component matches. Red: none match. Arrows show direction; ↔ means another currency.">i</button></span>
               <strong id="cost-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">Expansion</span>
+              <span class="clue-label-row"><span class="clue-label">Expansion</span><button class="info-button" type="button" aria-label="Expansion rules" data-tooltip="Green: same expansion. Red: different expansion. Arrows follow release order.">i</button></span>
               <strong id="expansion-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+Cards</span>
+              <span class="clue-label-row"><span class="clue-label">+Cards</span><button class="info-button" type="button" aria-label="Plus Cards rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-cards-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+Coins</span>
+              <span class="clue-label-row"><span class="clue-label">+Coins</span><button class="info-button" type="button" aria-label="Plus Coins rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-coins-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+Buy</span>
+              <span class="clue-label-row"><span class="clue-label">+Buy</span><button class="info-button" type="button" aria-label="Plus Buy rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-buys-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+Action</span>
+              <span class="clue-label-row"><span class="clue-label">+Action</span><button class="info-button" type="button" aria-label="Plus Action rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-actions-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+VP</span>
+              <span class="clue-label-row"><span class="clue-label">+VP</span><button class="info-button" type="button" aria-label="Plus VP rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-vp-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+Coffers</span>
+              <span class="clue-label-row"><span class="clue-label">+Coffers</span><button class="info-button" type="button" aria-label="Plus Coffers rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-coffers-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+Villagers</span>
+              <span class="clue-label-row"><span class="clue-label">+Villagers</span><button class="info-button" type="button" aria-label="Plus Villagers rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-villagers-clue">—</strong>
             </div>
             <div class="clue-box neutral">
-              <span class="clue-label">+Debt</span>
+              <span class="clue-label-row"><span class="clue-label">+Debt</span><button class="info-button" type="button" aria-label="Plus Debt rules" data-tooltip="Green: exact amount. Red: different amount. The arrow points toward the target.">i</button></span>
               <strong id="plus-debt-clue">—</strong>
             </div>
           </div>
@@ -91,16 +92,20 @@
           <form id="guess-form" autocomplete="off">
             <label class="sr-only" for="guess-input">Guess a Dominion card</label>
             <div class="guess-row">
-              <input
-                id="guess-input"
-                list="card-suggestions"
-                type="text"
-                placeholder="Type a Dominion card name…"
-                aria-label="Guess a Dominion card"
-              />
+              <div class="guess-input-wrap">
+                <input
+                  id="guess-input"
+                  type="text"
+                  placeholder="Type a Dominion card name…"
+                  aria-label="Guess a Dominion card"
+                  aria-controls="card-suggestions"
+                  aria-expanded="false"
+                  role="combobox"
+                />
+                <div id="card-suggestions" class="card-suggestions" role="listbox" aria-label="Card suggestions"></div>
+              </div>
               <button type="submit">Guess</button>
             </div>
-            <datalist id="card-suggestions"></datalist>
           </form>
 
           <div id="message" class="message" aria-live="polite"></div>
@@ -109,18 +114,32 @@
         <section class="panel board-panel">
           <div class="board-header">
             <h2>Your guesses</h2>
-            <span id="guess-count">0 / 6</span>
+            <span id="guess-count">0 guesses</span>
           </div>
 
           <div class="legend">
             <span><i class="dot good"></i> Correct</span>
-            <span><i class="dot warn"></i> Higher / Lower</span>
+            <span><i class="dot warn"></i> Partial match</span>
             <span><i class="dot bad"></i> Wrong</span>
+            <span>Arrows point toward the target amount</span>
           </div>
 
           <div id="guess-list" class="guess-list" aria-live="polite"></div>
         </section>
       </main>
+    </div>
+
+    <div class="win-modal" id="win-modal" hidden>
+      <div class="confetti" id="confetti" aria-hidden="true"></div>
+      <section class="win-card" role="dialog" aria-modal="true" aria-labelledby="win-title">
+        <button class="win-close" id="win-close" type="button" aria-label="Close result">×</button>
+        <div class="win-seal">D</div>
+        <p class="win-kicker">The kingdom is yours</p>
+        <h2 id="win-title">Correct guess!</h2>
+        <p class="win-copy">You found the hidden card.</p>
+        <strong class="win-card-name" id="win-card-name"></strong>
+        <button class="win-new-game" id="win-new-game" type="button">Start a new game</button>
+      </section>
     </div>
 
     <template id="guess-row-template">
