@@ -369,6 +369,7 @@ function endGame(won) {
   state.lost = !won;
   elements.guessInput.disabled = true;
   elements.guessForm.querySelector('button').disabled = true;
+  saveDailyProgress();
 
   if (won) {
     setMessage(`Correct! You guessed ${state.target.name}.`, 'success');
@@ -413,6 +414,8 @@ function handleGuess(event) {
     return;
   }
 
+  saveDailyProgress();
+
   setMessage('Not quite. The clue panel has updated with the category feedback.', '');
 }
 
@@ -432,6 +435,46 @@ function getDailySeed() {
   return year * 10000 + month * 100 + day;
 }
 
+function getDailyStorageKey() {
+  const seed = getDailySeed(); // Uses the getDailySeed function from earlier
+  return `dominion_daily_${seed}`;
+}
+
+function saveDailyProgress() {
+  const key = getDailyStorageKey();
+  const gameData = {
+    guesses: state.guesses, // Array of guessed card objects or names
+    won: state.won,
+    timestamp: Date.now()
+  };
+  localStorage.setItem(key, JSON.stringify(gameData));
+}
+
+function loadDailyProgress() {
+  const key = getDailyStorageKey();
+  const saved = localStorage.getItem(key);
+  
+  if (!saved) return false;
+
+  try {
+    const gameData = JSON.parse(saved);
+    state.guesses = gameData.guesses || [];
+    state.won = gameData.won || false;
+
+    // Re-render UI elements for the loaded guesses
+    state.guesses.forEach(renderGuessRows);   
+    state.guesses.forEach(renderClues);
+    // If the player already solved today's card, show win screen or lock input
+    if (state.won) {
+      showWinModal();
+    }
+    return true;
+  } catch (e) {
+    console.error("Failed to parse daily progress", e);
+    return false;
+  }
+}
+
 function startNewGame() {
   hideWinModal();
   
@@ -443,8 +486,16 @@ function startNewGame() {
   // Predictably picks the exact same index for everyone on this UTC day
   const dailyIndex = Math.floor(dailyRandom * state.cards.length);
   state.target = state.cards[dailyIndex];
-  console.log(state.target);
 
+  // Attempt to restore saved state for today
+  const loaded = loadDailyProgress();
+
+  if (!loaded) {
+    // Fresh game for a new day or new player
+    state.guesses = [];
+    state.won = false;
+  }
+  
   elements.guessInput.disabled = false;
   const submitButton = elements.guessForm.querySelector('button');
   submitButton.disabled = false;
