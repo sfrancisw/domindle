@@ -25,7 +25,7 @@ const elements = {
   plusCoffersClue: document.getElementById('plus-coffers-clue'),
   plusVillagersClue: document.getElementById('plus-villagers-clue'),
   plusDebtClue: document.getElementById('plus-debt-clue'),
-  newGameButton: document.getElementById('new-game-button'),
+  //newGameButton: document.getElementById('new-game-button'),
   winModal: document.getElementById('win-modal'),
   winClose: document.getElementById('win-close'),
   winNewGame: document.getElementById('win-new-game'),
@@ -416,13 +416,34 @@ function handleGuess(event) {
   setMessage('Not quite. The clue panel has updated with the category feedback.', '');
 }
 
+// Mulberry32 seeded random number generator
+function seededRandom(seed) {
+  let t = seed += 0x6D2B79F5;
+  t = Math.imul(t ^ (t >>> 15), t | 1);
+  t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+  return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+}
+function getDailySeed() {
+  const now = new Date();
+  const year = now.getUTCFullYear();
+  const month = now.getUTCMonth() + 1; // Months are 0-indexed
+  const day = now.getUTCDate();
+  
+  return year * 10000 + month * 100 + day;
+}
+
 function startNewGame() {
   hideWinModal();
-  const availableCards = shuffle([...state.cards]);
-  state.target = availableCards[Math.floor(Math.random() * availableCards.length)];
-  state.guesses = [];
-  state.won = false;
-  state.lost = false;
+  
+  if (!state.cards || state.cards.length === 0) return;
+  
+  const seed = getDailySeed();
+  const dailyRandom = seededRandom(seed);
+  
+  // Predictably picks the exact same index for everyone on this UTC day
+  const dailyIndex = Math.floor(dailyRandom * state.cards.length);
+  state.target = state.cards[dailyIndex];
+  console.log(state.target);
 
   elements.guessInput.disabled = false;
   const submitButton = elements.guessForm.querySelector('button');
@@ -467,7 +488,7 @@ async function init() {
 }
 
 elements.guessForm.addEventListener('submit', handleGuess);
-elements.newGameButton.addEventListener('click', startNewGame);
+//elements.newGameButton.addEventListener('click', startNewGame);
 elements.winClose.addEventListener('click', hideWinModal);
 elements.winNewGame.addEventListener('click', startNewGame);
 elements.winModal.addEventListener('click', (event) => {
